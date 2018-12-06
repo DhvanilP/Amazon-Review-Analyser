@@ -1,14 +1,14 @@
-## Amazon-Review-Analyser
+# Amazon-Review-Analyser
 Comparative Study of Machine Learning Approaches for Amazon Reviews
 <br>
 <br>
 # Naive Bayes (NB) Classifier
 It is the simplest and mainly used classifier (1). On the basis of allocation of the words in document, this categorization model calculates/computes the subsequent probability of a class. This model works with the BOWs feature extraction ignoring the position of words in the document. Bayes Theorem is used to calculate the probability that specified feature set is part of particular tag 
-
+<br>
 <br>
 # Maximum Entropy (ME) Classifiers
 This classifier is also known as a conditional exponential classifier, using encoding it translates labeled feature sets to vectors. This encoded vector after that is utilized to estimate weights of each feature that are united to choose the most liable label of the feature set. This classifier has parameters as a set of W{weights}, which combines joint features generated from feature-set by E{encoding}. The encoding maps each C{(featureset, label)} pair to a vector.
-
+<br>
 <br>
 # Support Vector Machines (SVM) Classifiers
 It is among the trendy classification techniques. SVM lies on the principle of determining linear separators in the search space that can finest divide the diverse classes. For SVM classification test data is well suited due to bare nature of text, in which some aspects can be unrelated, but are correlated with each other and are arranged into linearly divisible categories.
